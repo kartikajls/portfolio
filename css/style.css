@@ -20,7 +20,7 @@ body {
 header {
     text-align: center;
     position: center;
-    width: 100%;
+    width: 100vh;
 }
 
 .container-header {
@@ -367,4 +367,5 @@ footer {
     color: white;
     font-size: 15px;
     text-align: center;
+    width: 100vh;
 }
