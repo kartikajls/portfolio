@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+
+    <link rel="stylesheet" href="/frontend/css/style.css">
+</head>
+
+<body>
+
+    <head>
+        <div class="container-header">
+            <nav>
+                <h1>Portfolio Portal</h1>
+
+                <ul>
+                    <li><a href="/frontend/index.html">Home</a></li>
+                    <li class="drop-down"><a href="#">Project</a>
+                        <ul class="isi-dropdown">
+                            <li><a href="/frontend/data/frontend.html">Frontend Development</a></li>
+                            <li><a href="/frontend/data/backend.html">Backend Development</a></li>
+                            <li><a href="/frontend/data/da.html">Data Analytics</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/frontend/data/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </head>
+
+    <main>
+        <div>
+            <div class="main-content">
+                <div class="content-1">
+                    <h3>Portal Job's </h3>
+                    <div class="border"></div>
+                    <p class="s-login">
+                        This project made by me and my friend for Final Project in Hacktive8 Academy. Portal
+                        Porjectcontaint
+                        is one of the biggest in 17 SDG's in Indonesia "Pekerjaan Layak dan Pertumbuhan Ekonomi"
+                        .Indonesia
+                        is the most population country in ASEAN, so a job portal has been established to bridge
+                        the gap regarding employment.
+                    </p>
+                    <h4>Table of content</h4>
+                    <table>
+                        <tr>
+                            <td>1.</td>
+                            <td><a href="https://github.com/kartikajls/portal-job-RESTful-API/tree/main/user-service">User
+                                    Service</a></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td><a
+                                    href="https://github.com/kartikajls/portal-job-RESTful-API/tree/main/company-service">Company
+                                    Service</a></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td><a href="https://github.com/kartikajls/portal-job-RESTful-API/tree/main/job-service">
+                                    Job
+                                    Service</a></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td><a href="https://github.com/kartikajls/portal-job-RESTful-API/tree/main/job-service">Application
+                                    Service</a></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td><a href="https://github.com/kartikajls/portal-job-RESTful-API/tree/main/admin-service">Admin
+                                    Service</a></td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td><a
+                                    href="https://github.com/kartikajls/portal-job-RESTful-API/blob/main/docker-compose.yml">Dockerfile</a>
+                            </td>
+                        </tr>
+                    </table>
+                    <h4>Feature</h4>
+                    <ul class="p-list">
+                        <li>Mircroservice</li>
+                        <li>RESTful API</li>
+                        <li>Whatsapp Gateway API</li>
+                        <li>Echo Framework</li>
+                        <li>Gorm</li>
+                        <li>Bcrypt</li>
+                        <li>Docker</li>
+                        <li>PostgeSQL</li>
+                    </ul>
+                    <h4>Work Flow</h4>
+                    <img src="/frontend/src/asset/backend/0. Work_Flow.drawio.png" class="i-login">
+                    <p class="s-login">The Portal Job use a simple workflow to understand. Jobseeker use activate email
+                        for
+                        register and
+                        fill profile, skill, and portfolio. The Company register too and use activate email and fill the
+                        profile. After that Company create the job tittle, role, salary, tag and description. Then,
+                        Jobseeker apply the jobs and wait for interview announcement. Whether or not job seekers are
+                        accepted, they still receive a WhatsApp notification.
+                    </p>
+                    <h4>How to Use</h4>
+                    <table class="col-backend">
+                        <tr>
+                            <td>1. </td>
+                            <td>register email user as jobseeker or company</td>
+                        </tr>
+                        <tr>
+                            <td>2. </td>
+                            <td>Login and get JWT Token</td>
+                        </tr>
+                        <tr>
+                            <td>3. </td>
+                            <td>The JWT Token are use for jobseeker or company to fill profile</td>
+                        </tr>
+                        <tr>
+                            <td>4. </td>
+                            <td>The job created by company and applied for jobseeker</td>
+                        </tr>
+                        <tr>
+                            <td>5. </td>
+                            <td>We use fonnte gateway API for notification jobseeker</td>
+                        </tr>
+                        <tr>
+                            <td>6. </td>
+                            <td>Admin cant report jobseeker, company, and jobs if it is suspicious</td>
+                        </tr>
+                    </table>
+
+                    <div class="source">
+                        <img src="/frontend/src/asset/icon/github.png" class="s-source">
+                        <a href="https://github.com/kartikajls/portal-job-RESTful-API" class="s-text">Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="content-2">
+                    <h3>Tour-Guide Booking System</h3>
+                    <div class="border"></div>
+                    <p class="s-login">
+                        Tour-Guide Booking System is a simple terminal-based program developed using Golang The program
+                        is
+                        used to book tour guide services based on the selected service type and number of
+                        hours. This project serves as a practice project to understand the fundamentals of programming
+                        using
+                        Go.
+                        This project is developed to practice the fundamentals of Golang, particularly the use of
+                        structs,
+                        maps, slices, loops, conditionals, user input, data type conversion, and error handling.
+
+                    </p>
+                    <h4>Feature</h4>
+                    <table class="col-backend">
+                        <tr>
+                            <td>Display the available tour guide services</td>
+                        </tr>
+                        <tr>
+                            <td>Select a tour guide service</td>
+                        </tr>
+                        <td>Select the number of hours</td>
+                        </tr>
+                        <tr>
+                            <td>Calculate the order subtotal</td>
+                        </tr>
+                        <tr>
+                            <td>Book multiple services</td>
+                        </tr>
+                        <tr>
+                            <td>Display the order summary</td>
+                        </tr>
+                        <tr>
+                            <td>Calculate the total payment</td>
+                        </tr>
+                        <tr>
+                            <td>Validate user input</td>
+                        </tr>
+                    </table>
+                    <h4>This project uses several fundamental Go programming concepts:</h4>
+                    <table class="col-backend">
+                        <tr>
+                            <td>Struct</td>
+                        </tr>
+                        <tr>
+                            <td>Map</td>
+                        </tr>
+                        <tr>
+                            <td>Slice</td>
+                        </tr>
+                        <tr>
+                            <td>Function</td>
+                        </tr>
+                        <tr>
+                            <td>For Loop</td>
+                        </tr>
+                        <tr>
+                            <td>If / Else</td>
+                        </tr>
+                        <tr>
+                            <td>break</td>
+                        </tr>
+                        <tr>
+                            <td>continue</td>
+                        </tr>
+                        <tr>
+                            <td>append()</td>
+                        </tr>
+                        <tr>
+                            <td>Error Handling</td>
+                        </tr>
+                    </table>
+
+                    <div class="source">
+                        <img src="/frontend/src/asset/icon/github.png" class="s-source">
+                        <a href="https://github.com/kartikajls/dasar-pemrograman-golang/tree/main"
+                            class="s-text">Source</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        Copyright Made by Kartika Jatilaksono
+    </footer>
+
+</body>
+
+</html>
